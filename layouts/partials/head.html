@@ -1,0 +1,24 @@
+<title>{{ .Site.Title }}</title>
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="description" content="{{ with .Site.Params.description }} {{ . }} {{ end }}">
+<meta name="author" content="{{ with .Site.Params.name }} {{ . }} {{ end }}">
+<meta name="robots" content="all" />
+<meta property="og:site_name" content="Axel Segebrecht (Digital Consultant)"/>
+<meta property="og:url" content="https://www.axelsegebrecht.com"/>
+<meta property="og:description" content="Axel is a senior project manager for digital, marketing and IT-related projects."/>
+<meta property="og:type" content="website"/>
+<meta property="og:image" content="/assets/images/axel-og.png"/>
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:site" content="@axelsegebrecht"/>
+<meta name="twitter:creator" content="@axelsegebrecht"/>
+<meta property="og:url" content="https://www.axelsegebrecht.com"/>
+<meta property="og:title" content="Axel Segebrecht (Digital Consultant)"/>
+<meta property="og:description" content="Axel is a senior project manager for digital, marketing and IT-related projects."/>
+<meta property="og:image" content="/assets/images/axel-og.png"/>
+{{ .Hugo.Generator }}
+{{ "<!-- [if lte IE 8 ]]> <script src=" | safeHTML }}"{{ .Site.BaseURL }}{{ "js/ie/html5shiv.js\"></script><![endif] -->" | safeHTML }}
+<link rel="stylesheet" href="{{ .Site.BaseURL }}css/main.css" />
+{{ "<!--[if lte IE 8]><link rel=\"stylesheet\" href=" | safeHTML }}"{{ .Site.BaseURL }}{{ "css/ie8.css\" /><![endif]-->" | safeHTML }}
+{{ "<!--[if lte IE 8]><link rel=\"stylesheet\" href=" | safeHTML }}"{{ .Site.BaseURL }}{{ "css/ie9.css\" /><![endif]-->" | safeHTML }}
