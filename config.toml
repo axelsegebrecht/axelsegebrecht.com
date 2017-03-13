@@ -123,6 +123,11 @@ googleAnalytics = ""
         link = "https://twitter.com/axelsegebrecht"
 
       [[params.footer.social]]
+        title = "Github"
+        icon = "fa-github"
+        link = "https://github.com/axelsegebrecht"
+        
+      [[params.footer.social]]
         title = "Email"
         icon = "fa-envelope"
         link = "axel@segebrecht.com"
