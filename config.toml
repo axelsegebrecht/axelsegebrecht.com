@@ -1,5 +1,5 @@
 # Site settings
-baseurl = "https://beta.axelsegebrecht.com"
+baseurl = "https://beta.axelsegebrecht.com/"
 languageCode = "en-us"
 title = "Axel Segebrecht (Digital Project Manager)"
 theme = "hugo-highlights-theme"
