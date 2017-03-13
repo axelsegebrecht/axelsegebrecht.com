@@ -1,5 +1,5 @@
 # Site settings
-baseurl = "/"
+baseurl = "https://beta.axelsegebrecht.com"
 languageCode = "en-us"
 title = "Axel Segebrecht (Digital Project Manager)"
 theme = "hugo-highlights-theme"
@@ -126,7 +126,7 @@ googleAnalytics = ""
         title = "Github"
         icon = "fa-github"
         link = "https://github.com/axelsegebrecht"
-        
+
       [[params.footer.social]]
         title = "Email"
         icon = "fa-envelope"
