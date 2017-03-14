@@ -47,7 +47,7 @@ googleAnalytics = ""
   [params.about]
     enable = true
     title = "Who am I"
-    description = "I am Axel, a German-born project manager and advisor on digital projects based in Bletchley, Milton Keynes (UK). Speaking both English and German fluently, I can help crossing cultural boundaries and bringing project teams across together."
+    description = "I am Axel, a German-born project manager and advisor on digital projects based in Bletchley, Milton Keynes (UK). Speaking both English and German fluently, I can help crossing cultural boundaries and bringing project teams together."
     buttontext = "next"
     # the picture is storead at static/images/
     picture = "IMG_3610.jpg"
